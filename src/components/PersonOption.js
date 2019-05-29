@@ -9,7 +9,7 @@ import {
 
 const PersonOption = ({ name, id }) => {
 	return (
-		<StyledOption >{name}</StyledOption>
+		<StyledOption value={id}>{name}</StyledOption>
 	)
 }
 
